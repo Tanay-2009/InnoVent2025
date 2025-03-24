@@ -152,20 +152,21 @@
     <div class="container">
         <div class="cta">
             <h2>Join the Beta</h2>
-            <form name="startup-beta" method="POST" action="https://script.google.com/macros/s/AKfycbx93h1-POwZzXUY0vOKcSYYQzc9j_rNRZH2Bpwv6Z2PP-WdYoidOUFDtKbAStRtzWj8fw/exec" enctype="multipart/form-data">
-                <input type="text" name="Startup Name" placeholder="Startup Name" required><br>
-                <input type="text" name="Founder Name" placeholder="Founder Name" required><br>
-                <input type="email" name="Email" placeholder="Email" required><br>
-                <select name="Company Stage">
-                    <option value="Pre-Seed">Pre-Seed</option>
-                    <option value="Seed">Seed</option>
-                    <option value="Series A">Series A</option>
-                </select><br>
-                <input type="text" name="Therapeutic Area" placeholder="Therapeutic Area"><br>
-                <input type="text" name="Clinical Trial Status" placeholder="Clinical Trial Status"><br>
-                <input type="file" name="PitchDeck" required><br>  <!-- Attachment for pitch deck -->
-                <button type="submit">Submit</button>
-            </form>
+            <form name="startup-beta" method="POST" enctype="multipart/form-data" action="YOUR_GOOGLE_SCRIPT_URL_HERE">
+    <input type="text" name="Startup Name" placeholder="Startup Name" required><br>
+    <input type="text" name="Founder Name" placeholder="Founder Name" required><br>
+    <input type="email" name="Email" placeholder="Email" required><br>
+    <select name="Company Stage">
+        <option value="Pre-Seed">Pre-Seed</option>
+        <option value="Seed">Seed</option>
+        <option value="Series A">Series A</option>
+    </select><br>
+    <input type="text" name="Therapeutic Area" placeholder="Therapeutic Area"><br>
+    <input type="text" name="Clinical Trial Status" placeholder="Clinical Trial Status"><br>
+    <input type="file" name="PitchDeck" required><br>  <!-- File upload -->
+    <button type="submit">Submit</button>
+</form>
+
         </div>
     </div>
     
